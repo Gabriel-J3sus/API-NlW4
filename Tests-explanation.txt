@@ -1,0 +1,9 @@
+Testes Automatizados
+
+1 - Testes unitários
+
+2 - Testes de integração = Funcionalidade completa da aplicação
+
+----------------------------------------------------------------------------
+
+3 - End2End - Testa o fluxo inteiro desde o frontend
