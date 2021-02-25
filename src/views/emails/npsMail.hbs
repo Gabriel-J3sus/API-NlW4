@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .container {
+      width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .answers {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .answers a {
+      margin: 0 2px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15px;
+      background: #8257e6;
+      color: #FFF;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .level {
+      width: 350px;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <div class="container">
+    <label>Olá <strong>{{name}}</strong>! Tudo bem?</label>
+
+    <h3>{{title}}</h3>
+    <br/>
+
+    <strong>{{description}}</strong>
+
+    <div class="level">
+      <span>Pouco provável</span>
+      <span>Muito provável</span>
+
+    </div>
+
+    <div class="answers">
+      <a href="{{link}}/1?u={{user_id}}">1</a>
+      <a href="{{link}}/2?u={{user_id}}">2</a>
+      <a href="{{link}}/3?u={{user_id}}">3</a>
+      <a href="{{link}}/4?u={{user_id}}">4</a>
+      <a href="{{link}}/5?u={{user_id}}">5</a>
+      <a href="{{link}}/6?u={{user_id}}">6</a>
+      <a href="{{link}}/7?u={{user_id}}">7</a>
+      <a href="{{link}}/8?u={{user_id}}">8</a>
+      <a href="{{link}}/9?u={{user_id}}">9</a>
+      <a href="{{link}}/10?u={{user_id}}">10</a>
+
+    </div>
+
+    <br/>
+    <br/>
+
+    <strong>Sua opinião é muito importante para nós</strong>
+    <h3>Equipe | <strong>NLW</strong></h3>
+  </div>
+</body>
+</html>
