@@ -26,3 +26,11 @@ API criada na Next Level Week 4, com o objetivo de criar um calculo de NPS (mét
 - [Nodemailer](https://nodemailer.com/about/)
 - [Jest](https://jestjs.io/)
 - [Typescript](https://www.typescriptlang.org/)
+
+## 🗺 Como executar
+
+- Clone o repositório
+- Instale as dependências com `yarn`
+- Inicie o servidor com `yarn dev`
+
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
